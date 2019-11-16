@@ -1,0 +1,28 @@
+html {
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background: url(./images/wallpaper.png) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: Belwe;
+}
+
+@font-face{
+  font-family: Belwe;
+  src: url(./font/Font.otf);
+}
+
+.header{
+  width: 100%;
+  color: whitesmoke;
+  text-align: center;
+  background-color:black;
+}
+
+.stats-row {
+  display: flexbox;
+  color: whitesmoke;
+  background-color:black;
+  justify-content: flex-start;
+}
