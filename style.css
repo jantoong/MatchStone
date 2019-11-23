@@ -6,6 +6,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   font-family: Belwe;
+  display: flex;
 }
 
 @font-face{
@@ -16,13 +17,20 @@ html {
 .header{
   width: 100%;
   color: whitesmoke;
-  text-align: center;
-  background-color:black;
+  justify-content: center;
 }
 
 .stats-row {
-  display: flexbox;
   color: whitesmoke;
-  background-color:black;
-  justify-content: flex-start;
+  text-align: left;
+}
+
+.mainboard{
+  background-color: white;
+}
+
+.class{
+  min-height: 700px;
+  width: 500px;
+  background: url(./images/Class/Anduin_Wrynn.png);
 }
